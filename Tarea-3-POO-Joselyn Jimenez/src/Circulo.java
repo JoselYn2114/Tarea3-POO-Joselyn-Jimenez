@@ -1,4 +1,4 @@
-public class Circulo extends Figura implements Comparable <Circulo> {
+public class Circulo extends Figura implements Comparable <Figura> {
 
 	private double radio;
 
@@ -22,7 +22,7 @@ public class Circulo extends Figura implements Comparable <Circulo> {
    }
 
 	@Override
-	public int compareTo(Circulo Circle) {
+	public int compareTo(Figura Circle) {
 
 		double Cir = Circle. calcularArea ();
 		double miArea = this.calcularArea ();
